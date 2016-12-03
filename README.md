@@ -1,5 +1,5 @@
-# Solo 
+# FoxForumExtension.Readme 
 
-[Solo](http://chibicode.github.io/solo) is a Jekyll theme that supports **single-page websites** only, but supports them well. Yes, it's responsive.
+Readme for FoxForumExtension
 
-### [Demo & Documentation &rarr;](http://chibicode.github.io/solo)
+### This repository is a fork of [Solo](http://chibicode.github.io/solo)
