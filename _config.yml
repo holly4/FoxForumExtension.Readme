@@ -1,7 +1,7 @@
 # Site settings
-title: Solo, a Jekyll Theme
-tag_text: Solo
-description: Solo is a Jekyll theme that supports single-page websites only, but supports them well. Yes, it’s responsive.
+title: Version 0.3.0
+tag_text: Version 0.3.0
+description: The Fox Forum Helper Chrome Extension is a Chrome extension that adds customization to the Fox News Forums.
 
 # Build settings
 markdown: kramdown
