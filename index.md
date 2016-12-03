@@ -4,7 +4,7 @@ layout: default
 
 The [Fox Forum Helper](https://github.com/holly4/FoxForumExtension) is a Chrome extension that adds customization to the Fox News Forums. 
 
-![Fox Forum Helper Chrome Extension User Interface](images/0.3.0_ui.png) "Extension User Interface")
+![Fox Forum Helper Chrome Extension User Interface](images/ui.png) "Extension User Interface")
 
 ## Background
 
