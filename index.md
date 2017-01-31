@@ -4,6 +4,12 @@ layout: default
 
 The [Fox Forum Helper](https://github.com/holly4/FoxForumExtension) is a Chrome extension that adds customization to the Fox News Forums. 
 
+### Changes for Version 2.2.0 Beta (1/30/2017)
+Version 2.2.0 includes:
+- A fix for when Fox News has incorectly marked more than one HTML node on the page as a comment stream as in the case of the Todd Starnes story today.
+- Lowercasing of posts that are more than 20% UPPERCASE TEXT. **Note that at present this in opt-in** so you need to enable this in the options page. See this page
+for further details on this feature: [STOP SCREAMING AT ME!](http://hollies.pw/2017/01/31/stop-screaming-at-me/)
+
 ### Changes for Version 2.1.1 Beta (1/27/2017)
 Version 2.1.1 includes:
 - Changes to detect the current user name. This is needed because of changes Fox made to the page on Thursday.
