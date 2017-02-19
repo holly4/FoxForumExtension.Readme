@@ -4,6 +4,18 @@ layout: default
 
 The [Fox Forum Helper](https://github.com/holly4/FoxForumExtension) is a Chrome extension that adds customization to the Fox News Forums. 
 
+### Changes for Version 2.2.1 Beta (2/19/2017)
+Version 2.2.1 is the last intended version of the beta extension for this cycle. Barring any notification of problems this version will be used
+to update the main extension midweek:
+- Comments are now processed for blank line removal, unbolding and lowercasing when a user edits them as well as on initial post.
+- Improvement to the pop-up U/I so changes are only sent to the extension when actual changes are made to the filter state or users to filter. 
+Before this change, any click to various elements on the pop-up U/I page notfied all extenson modules. (This resulted in no issues, 
+as the modules would see their state had not change, but still was redundant)
+- Trim spaces from usernames to be added to the filter list and detect and do not add duplicate users.
+- Remove the `Enable logging` check box from the pop-up U/I. The logging feature can now only be changed in the options page.
+- Update the count of filtered posts from the table content on change and not by keeping a counter. This was resulting in the `Total Filterred Posts` being incorrect
+when users were removed from the filter list and had filtered posts.
+
 ### Changes for Version 2.2.0 Beta (1/30/2017)
 Version 2.2.0 includes:
 - A fix for when Fox News has incorectly marked more than one HTML node on the page as a comment stream as in the case of the Todd Starnes story today.
