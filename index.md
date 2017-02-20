@@ -4,6 +4,11 @@ layout: default
 
 The [Fox Forum Helper](https://github.com/holly4/FoxForumExtension) is a Chrome extension that adds customization to the Fox News Forums. 
 
+### Changes for Version 2.2.2 Beta (2/19/2017)
+Version 2.2.2 is critical fix for the last version which had a fatal problem. My bad for not catching it but it seems the Chrome Canary build I develop with is mor
+permissive, (or has a bug), that allowed my code with a syntax error in it to run. So will also test on the release version of Chome in the future. 
+Sorry for any confusion.
+
 ### Changes for Version 2.2.1 Beta (2/19/2017)
 Version 2.2.1 is the last intended version of the beta extension for this cycle. Barring any notification of problems this version will be used
 to update the main extension midweek:
