@@ -2,44 +2,18 @@
 layout: default
 ---
 
-The [Fox Forum Helper](https://github.com/holly4/FoxForumExtension) is a Chrome extension that adds customization to the Fox News Forums. 
+Your Fox Forum Helper extension has been upgraded. The changes for this revision are listed below. 
+For a list of changes in other versions see the Release Notes section of the [online help](http://hollies.pw/static/ffh/latest/help/index.html).
 
-### Changes for Version 2.2.2 Beta (2/19/2017)
-Version 2.2.2 is critical fix for the last version which had a fatal problem. My bad for not catching it but it seems the Chrome Canary build I develop with is mor
-permissive, (or has a bug), that allowed my code with a syntax error in it to run. So will also test on the release version of Chome in the future. 
-Sorry for any confusion.
-
-### Changes for Version 2.2.1 Beta (2/19/2017)
-Version 2.2.1 is the last intended version of the beta extension for this cycle. Barring any notification of problems this version will be used
-to update the main extension midweek:
-- Comments are now processed for blank line removal, unbolding and lowercasing when a user edits them as well as on initial post.
-- Improvement to the pop-up U/I so changes are only sent to the extension when actual changes are made to the filter state or users to filter. 
-Before this change, any click to various elements on the pop-up U/I page notfied all extenson modules. (This resulted in no issues, 
-as the modules would see their state had not change, but still was redundant)
-- Trim spaces from usernames to be added to the filter list and detect and do not add duplicate users.
-- Remove the `Enable logging` check box from the pop-up U/I. The logging feature can now only be changed in the options page.
-- Update the count of filtered posts from the table content on change and not by keeping a counter. This was resulting in the `Total Filterred Posts` being incorrect
-when users were removed from the filter list and had filtered posts.
-
-### Changes for Version 2.2.0 Beta (1/30/2017)
-Version 2.2.0 includes:
-- A fix for when Fox News has incorectly marked more than one HTML node on the page as a comment stream as in the case of the Todd Starnes story today.
-- Lowercasing of posts that are more than 20% UPPERCASE TEXT. **Note that at present this in opt-in** so you need to enable this in the options page. See this page
-for further details on this feature: [STOP SCREAMING AT ME!](http://hollies.pw/2017/01/31/stop-screaming-at-me/)
-
-### Changes for Version 2.1.1 Beta (1/27/2017)
-Version 2.1.1 includes:
-- Changes to detect the current user name. This is needed because of changes Fox made to the page on Thursday.
-- Unbolding of posts that are more than 10% bold text. **Note that at present this in opt-in** so you need to enable this in the options page. See this page
-for further details on this feature: [Stop using up all the bold pixels, dude!](http://hollies.pw/2017/01/27/stop-using-up-all-the-bold-pixels-dude/)
-- Marking your own filtered posts is now enabled by default.
-- A fix where things broke in the Clean Comments feature when logging was turned on
-
-### Changes for Version 2.1.0 Beta
-Version 2.1 adds an indication when your own posts have been filtered. **Note that at present this in opt-in** so you need to enable this in the options page. See this page
-for further details on this feature: [What? You filtered my comment?](http://hollies.pw/2017/01/22/what-you-filtered-my-comment/)
-
-### Changes for Version 2.0.0 Beta
-Version 2.0 is a major change so the extension acts automatically on pages on Fox News with Comment Forums. So no more having to click the 
-extension icon and press apply. It also adds new features and fixes some bugs in the prior version. 
-This page describes the changes [Fox Forum Helper Version 2.0.0 in the store](http://hollies.pw/2017/01/18/fox-forum-helper-version-2-0-0-in-the-store)
+### Changes for Version 2.2.3 Beta (3/12/2017)
+Version 2.2.3 fixes several small issues but also has changes internally to make future releases less risky. This involves using the JavaScript
+linting tool [ESLint](http://eslint.org/) which catches potential errors in JavaScript code to hopefully avoid issues like in version
+2.2.1, where the code worked in the cutting-edge version of Chrome but not in the release version. 
+The [online help](http://hollies.pw/static/ffh/latest/help/index.html) is now complete. It will still be improved over time but as it is on line it can be reved at anytime without
+changes to the extension. **Barring any negative feedback, this version will be used to, finally!, update the non-beta extension**.
+- Use ESLint during development process and fixed all issues identified by it.
+- Fixed error where lowercasing posts was also controlled by the unbolding checkbox.
+- Allow the user to modify trigger levels where posts are unbolded or lowercased.
+- Change the default option to remove the video when cleaning the page to inactive.
+- Change the default option to remove bold and uppercase in posts to active.
+- Remove more of the padding at top of screen of Fox forum page.
