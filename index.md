@@ -18,6 +18,7 @@ The main purpose of version 2.3.0 is to add back the Unicode Converter link but 
 - Change font on username field on Fox News Page to the Tahoma font so I's and l's in user names can be distinguished.
 - Change the default limit on debolding posts from 10% of characters in a post to 20%.
 - Change the default limit on unuppercasing posts from 20% to 40% of alphabetic characters in a post.
+- Add Icon section to manifest so extension icon shows in Chrome extensions list page.
 - Fix many spelling errors in the help text as I figured out how to turn back on spell checking in HelpNDoc that somehow became disabled!
 
 ### More Information/Support/Questions
