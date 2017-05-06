@@ -5,7 +5,7 @@ layout: default
 ### Note: 
 
 I realized how annoying this update page can be when my extension was upgraded and this page popped up while I was watching a movie. In a future release I will change
-the upgrade notice to occur then the extension is first used after an upgrade.
+this upgrade notice to occur when the extension is first used after an upgrade.
 
 ### Overview
 The Fox Forum Helper extension acts only on pages on FoxNews.com. For any other pages it is not loaded at all by Chrome. On Fox News pages with comment forums it activates and provides these features:
@@ -16,14 +16,17 @@ The Fox Forum Helper extension acts only on pages on FoxNews.com. For any other 
 - Cleaning Comments - remove extra blank lines and over use of bold and uppercase from comments.
 - Showing Filtered Comments - show comments filtered by Fox News including when your own comments are filtered.
 
-### Changes for Version 2.3.1  BETA (4/26/2017)
-2.3.1  BETA (4/26/2017)
-The only change in version 2.3.1 is to retain the page masthead when cleaning the page. To retain the prior appearance an option to remove the masthead is available under advanced options. See this [help topic](http://hollies.pw/static/ffh/2.3.1/help/index.html?RemovingtheMasthead.html) for further information.
+### Changes for Version 2.3.2 (5/6/2017)
+Incorporate changes made in the two beta releases since the last production release. The major ones:
+- Add the Custom Link field to Fox News Page. See 
+[custom link](http://hollies.pw/static/ffh/2.3.2/help/index.html?CustomLink.html) on how to configure this link.
+- Retain the Fox News masthead section at the top of the page. See [removing the masthead](http://hollies.pw/static/ffh/2.3.2/help/index.html?RemovingtheMasthead.html) if you prefer the prior appearance.
+
+For further details on other changes see the [release notes](http://hollies.pw/static/ffh/2.3.2/help/index.html?ReleaseNotes.html).
 
 ### More Information/Support/Questions
 - For further help see the [online help](http://hollies.pw/static/ffh/2.3.0/help/index.html).
-- In particular, for users upgraded from version 1 of the extension see the topic "What's new in version 2"
-- For assistance see the Support section
+- For assistance see the [support](http://hollies.pw/static/ffh/2.3.0/help/index.html?Support.html) section
 
 ### And Finally ...
 Never forget that [Todd Starnes is a fat fuck!](http://hollies.pw/2016/11/17/todd-starnes-is-a-fat-fuck/)
