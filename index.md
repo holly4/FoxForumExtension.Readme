@@ -3,31 +3,17 @@ layout: default
 ---
 
 ### Overview
-The Fox Forum Helper extension acts only on pages on FoxNews.com. For any other pages it is not loaded at all by Chrome. On Fox News pages with comment forums it activates and provides these features:
+The Fox Forum Helper Beta extension is a seperate extension from the Fox Forum Helper. The intent is to roll out features to interested users and test them before incorporation into the release version extension.
+To understand what is in the Beta extension [please read this blog post](http://hollies.pw/2017/09/12/fox-forum-helper-version-2-4-1-beta-released/).
 
-- Cleaning the page - removes all but the forum content from the article page.
-- Show Liker Avatars - display of the avatars of users who liked a comment.
-- Disable Scrolling - disables the scrolling when someone replies to your comment
-- Cleaning Comments - remove extra blank lines and over use of bold and uppercase from comments.
-- Showing Filtered Comments - show comments filtered by Fox News including when your own comments are filtered.
-
-### Changes for Version 2.4.0 (9/6/2017)
-Fox has a new comment forum format. This release will work with the new format but only the "Clean Page" function to remove
-all but the article (which is hidden) and remove all non-forum content. The new forum uses a different
-technology than the present forum so further investigation will be needed on making other features
-of the extension work with the new format.
-- Detect which forum format and act appropriately
-- Add link for FoxForums.info site
-
-For further details on other changes see the [release notes](http://hollies.pw/static/ffh/2.3.3/help/index.html?ReleaseNotes.html).
-
-### Note: 
-
-I realized how annoying this update page can be when my extension was upgraded and this page popped up while I was watching a movie. In a future release I will change
-this upgrade notice to occur when the extension is first used after an upgrade.
+### Changes for Version 2.4.1 BETA (9/12/2017)
+This version adds Avatar Swapping and User Filtering to the new Fox News Forum
+- Make cosmetic changes to page
+- Implement avatar swapping
+- Implement user filtering
 
 ### More Information/Support/Questions
-- For further help see the [online help](http://hollies.pw/static/ffh/2.4.0/help/index.html).
+- There is no online help yet for the new version to support Fox News' new forum software.
 - For assistance see the [support](http://hollies.pw/static/ffh/2.4.0/help/index.html?Support.html) section
 
 ### And Finally ...
