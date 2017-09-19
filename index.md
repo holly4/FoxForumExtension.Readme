@@ -6,17 +6,15 @@ layout: default
 The Fox Forum Helper Beta extension is a separate extension from the Fox Forum Helper. The intent is to roll out features to interested users and test them before incorporation into the release version extension.
 See recent posts on [hollies.pw](http://hollies.pw).
 
-### Changes for Version 2.4.4 BETA (9/18/2017)
-This release was necessitated by Fox News version changing the article page format. 
-It contains a new feature that is only mostly done; a graph showing post activity over time.
-This is something I had implemented in a never-released version I was working on when Fox News changed the forum format.
-It shows how many posts have been added to the page per minute to give you an idea of how active the
-forum is. Note, however, that in the new forum posts are only added to the page mostly when the "Show X posts" button is pressed.
-Thus, you will get spikes in the graph as all those posts are read from the server and updated at the time you press the button.
-- Recognize new article format and show and hide the article
-- remove a new sidebar added to the right when cleaning the page
-- change user name on the pink bunny avatar from KCH1 to KCH3
+### Changes for Version 2.4.5 BETA (9/19/2017)
+After seeing the second post with text formatting in the new forum today I looked further into how that was done. Turned out to be just editing the HTML for the post in the editor. So buttons that do that have been added for (B)old, (I)talic, (U)nderling and (X)remove formatting. To use those highlight some text in a post and press a button. I'll look into what other formatting options can be offered via the standard execCommand function on an editable field in Chrome.
+- Add column headers to avatar swapping table
+- Add user archer-whatever to avatar swapping table.
+- Make the bar inserted where a filtered comment is hidden half the height it was and light-gray colored.
 
+### Where is the Release Version???
+At this time the plan is to use this version with avatar-swapping and the activity-graph functions hidden in the release version as those need more work.
+(They will both still be available in the beta version). So, hopefully, that happens tomorrow barring any bugs found that need fixing.
 
 ### More Information/Support/Questions
 - See recent posts on [hollies.pw](http://hollies.pw).
